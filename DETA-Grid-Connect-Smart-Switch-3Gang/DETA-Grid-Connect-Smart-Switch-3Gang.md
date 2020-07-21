@@ -58,7 +58,7 @@ wifi:
   ap:
     ssid: "Powder Room Switch"
     password: "Powder Room Switch"
-    
+
 captive_portal:
 
 # Enable logging
@@ -74,10 +74,10 @@ ota:
 sensor:
   - platform: uptime
     name: $upper_devicename Uptime
-    
+
   - platform: wifi_signal
     name: $upper_devicename WiFi Signal
-    update_interval: 15s 
+    update_interval: 15s
     
 #################################  
   
@@ -111,12 +111,12 @@ switch:
     name: $upper_devicename $button2_name
     icon: "mdi:fan"
     id: fan1
-    
+
   - platform: output
     name: $upper_devicename $button1_name
     output: relay1
     id: heat1
-    
+
   - platform: restart
     name: $upper_devicename Restart
 
