@@ -78,7 +78,7 @@ sensor:
   - platform: wifi_signal
     name: $upper_devicename WiFi Signal
     update_interval: 15s
-    
+
 #################################  
   
 
